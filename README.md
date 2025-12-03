@@ -47,3 +47,8 @@ No terminal, digite o comando
 `
 uvicorn main:app --reload
 `
+
+### Observações
+- É necessário que os certificados ".pem" estejam neste diretório
+- O chave pública e a chave privada 
+

@@ -1,6 +1,6 @@
 # API PAGAMENTOS SANTANDER
 
-## Instruções de como rodar o projeto
+## Instruções 
 
 ### Clonar o repositório
 Abra o seu editor de código em uma pasta separada para os próximos passos
@@ -35,3 +35,15 @@ python -m venv .venv
 `
 pip install requirements.txt
 ` 
+
+### Configurações de Ambiente
+- Renomear o .env.example para .env
+- Substiuir para as suas credenciais de acesso reais 
+
+### Rodar o projeto
+
+No terminal, digite o comando
+
+`
+uvicorn main:app --reload
+`
